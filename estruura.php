@@ -1,14 +1,15 @@
-decisoes-com-dados-em-tempo-real/
-├── README.md
+```bash
+real-time-data-driven-decisions/
+├── README.md                     # This file
 ├── notebooks/
-│   └── pipeline_spark_streaming.ipynb
+│   └── pipeline_spark_streaming.ipynb   # Jupyter Notebook for exploratory setup
 ├── data/
-│   └── simulados/         # deixe os CSV aqui
+│   └── simulated/                # CSV files simulating the stream
 ├── src/
-│   ├── producer.py        # script para gerar dados simulados
-│   └── spark_pipeline.py  # pipeline com Spark Structured Streaming
+│   ├── producer.py              # Script to simulate continuous data input
+│   └── spark_pipeline.py        # Spark Structured Streaming main script
 ├── dashboard/
-│   └── app_streamlit.py   # dashboard em tempo real
-├── requirements.txt
-├── docker-compose.yml     # opcional, para ambiente containerizado
-└── .gitignore
+│   └── app_streamlit.py         # Streamlit dashboard for live data visualization
+├── requirements.txt             # Python dependencies
+├── docker-compose.yml           # Optional: to containerize Spark or simulate Kafka
+└── .gitignore                   # Files and folders to ignore in version control
