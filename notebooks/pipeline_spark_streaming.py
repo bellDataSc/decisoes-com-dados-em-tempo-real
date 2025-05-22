@@ -1,5 +1,3 @@
-# 📊 Pipeline de Decisão com Spark Streaming
-
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, sum as _sum
 
