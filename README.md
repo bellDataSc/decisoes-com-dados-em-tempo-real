@@ -5,11 +5,9 @@ It is part of my specialization at **Mackenzie University** in the course *"Data
 
 The goal is to demonstrate how decisions can be guided by data — structured or unstructured — through an end-to-end pipeline from data ingestion to real-time decision support.
 
-
-
 ---
 
-## 🚀 Technologies Used
+Technologies Used
 
 - **Python 3.10+**
 - **Apache Spark** (Structured Streaming)
@@ -20,8 +18,6 @@ The goal is to demonstrate how decisions can be guided by data — structured or
 - **Jupyter Notebook** (for exploratory analysis)
 
 ---
-
-## 📁 Project Structure
 
 The project is organized as follows:
 
