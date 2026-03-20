@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Dados brutos (manter apenas amostras)
+data/raw/
+*.csv
+!data/samples/*.csv
+
+# Ambientes virtuais
+.env
+.venv
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Chaves e segredos
+*.env
+secrets.json
+api_keys.json
+
+# OS
+.DS_Store
+Thumbs.db
